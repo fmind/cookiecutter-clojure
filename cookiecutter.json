@@ -4,6 +4,6 @@
     "email": "anon@local",
     "author": "anonymous",
     "license": "MIT",
-    "clojure": "1.10.0",
+    "clojure": "1.10.1",
     "control": "github.com"
 }
