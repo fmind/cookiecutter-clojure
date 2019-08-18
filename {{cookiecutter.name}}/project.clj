@@ -1,8 +1,8 @@
 (defproject {{cookiecutter.name}} "0.1.0-SNAPSHOT"
   :description "TODO: write a description"
 
-  :url "https://{{cookiecutter.control}}/{{cookiecutter.user}}/{{cookiecutter.name}}"
-  :scm {:name "GIT" :url "https://{{cookiecutter.control}}/{{cookiecutter.user}}/{{cookiecutter.name}}"}
+  :url "{{cookiecutter.repository}}"
+  :scm {:name "GIT" :url "{{cookiecutter.repository}}"}
   :license {:name "{{cookiecutter.license}}" :url "https://opensource.org/licenses/{{cookiecutter.license}}"}
  
   :test-paths ["test"]
@@ -34,4 +34,3 @@
   :main ^:skip-aot {{cookiecutter.name}}.core
   :codox {:output-path "doc/api"}
   :cloverage {:output "cov/api"})
-
