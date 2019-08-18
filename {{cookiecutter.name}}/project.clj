@@ -15,11 +15,11 @@
             [lein-ancient "0.6.15"]
             [lein-githooks "0.1.0"]
             [lein-cloverage "1.0.13"]
-            [jonase/eastwood "0.3.3"]
-            [venantius/ultra "0.5.2"]]
+            [jonase/eastwood "0.3.3"]]
  
   :profiles {:dev {:githooks
-                   {:pre-commit
+                   {:auto-install true
+                    :pre-commit
                     ["lein test"
                      "lein check"
                      "lein eastwood"
