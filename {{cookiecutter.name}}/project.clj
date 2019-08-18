@@ -20,8 +20,7 @@
             [jonase/eastwood "0.3.5"]]
  
   :profiles {:dev {:githooks
-                   {:auto-install true
-                    :pre-commit
+                   {:pre-commit
                     ["lein test"
                      "lein check"
                      "lein eastwood"
