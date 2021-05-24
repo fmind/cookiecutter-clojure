@@ -3,7 +3,7 @@
     "user": "anonymous",
     "email": "anon@local",
     "author": "anonymous",
-    "clojure": "1.10.1",
+    "clojure": "1.10.3",
     "license": "MIT",
     "control": "github.com",
     "repository": "https://{{cookiecutter.control}}/{{cookiecutter.user}}/{{cookiecutter.name}}"
